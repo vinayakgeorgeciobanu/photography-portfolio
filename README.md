@@ -1,1 +1,1 @@
-# photography-portfolio
+# Photography-Portfolio
