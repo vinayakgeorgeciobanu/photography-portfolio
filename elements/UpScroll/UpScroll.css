@@ -1,0 +1,19 @@
+#upButton {
+    font-size: 2vw;
+    display: none;
+    position: fixed;
+    bottom: 1.5vw;
+    right: 2vw;
+    z-index: 99;
+    border: 0.2vw solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 0.6vw 1vw;
+    border-radius: 10vw;
+}
+
+#upButton:hover {
+    background-color: gray;
+}
