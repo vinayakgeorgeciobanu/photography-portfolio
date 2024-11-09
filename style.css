@@ -17,7 +17,7 @@ header {
     padding: 20%;
     text-align: center;
     color: black;            
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.1vw white;
     font-size: 60px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,10 +57,12 @@ p {
 
 .topnav a:hover {
     background-color: black;
+    text-decoration: line-through;
 }
 
 .topnav a.active {
     background-color: black;
+    text-decoration: line-through;
 }
 
 .intro {
@@ -135,29 +137,72 @@ section {
     border: 0.2vw solid white;
     text-decoration: none;
 }
-.buttonG:hover {
+.button:hover {
     background-color: gray;
+    text-decoration: line-through;
 }
-.button1:hover {
-    background-color: #f70088ff;
+
+.social-icons {
+    display: flex;
+    padding: 2vw;
+    justify-content: center;
 }
-.button2:hover {
-    background-color: #29903B;
+.social-icons a {
+    padding: 1vw 6.3vw;
 }
-.button3:hover {
-    background-color: #0A66C2;
+.social-icons a:hover {
+    opacity: 0.5;
 }
-.button4:hover {
-    background-color: #FFA116;
+.social-icons img {
+    width: 4vw;
+    height: 4vw;
+}
+
+.pages {
+    display: flex;
+    font-size: 2vw;
+    padding: 1vw;
+    justify-content: center;
+    
+}
+.pages a {
+    padding: 1vw 3vw;
+    color: inherit;
+    text-decoration: none;
+}
+.pages a:hover {
+    text-decoration: line-through;
+}
+
+.last {
+    font-size: 1vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last a {
+    text-decoration: none;
+    color: inherit;
+}
+.last a:hover {
+    text-decoration: line-through;
 }
 
 footer {
-    padding: 5vw;
-    justify-content: center;
-    align-items: center;
+    background-color: grey;
     display: flex;
+    flex-direction: column;
+    padding: 1vw;
 }
 
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
 @media (max-width: 600px) {
     .topnav {
         flex-direction: column;
@@ -190,15 +235,22 @@ footer {
         font-size: 1rem;
         padding: 12px;
     }
+    
+    .social-icons a {
+        padding: 1vw 6.5vw;
+    }
+    .social-icons img {
+        width: 8vw;
+        height: 8vw;
+    }
 
-    footer {
-        flex-direction: column;
-    }    
-}
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
+    .pages {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+
+    .last {
+        font-size: 2vw;
+        padding: 2vw;
     }
 }
