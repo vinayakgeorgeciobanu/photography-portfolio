@@ -65,10 +65,6 @@ p {
     text-decoration: line-through;
 }
 
-.intro {
-    padding: 5%; 
-}
-
 section {
     text-align: center;
     color: white;
@@ -154,13 +150,13 @@ section {
     opacity: 0.5;
 }
 .social-icons img {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .pages {
     display: flex;
-    font-size: 2vw;
+    font-size: 1.6vw;
     padding: 1vw;
     justify-content: center;
     
@@ -240,8 +236,8 @@ footer {
         padding: 1vw 6.5vw;
     }
     .social-icons img {
-        width: 8vw;
-        height: 8vw;
+        width: 7vw;
+        height: 7vw;
     }
 
     .pages {
