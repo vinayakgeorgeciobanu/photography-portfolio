@@ -234,6 +234,7 @@ footer {
     
     .social-icons a {
         padding: 1vw 6.5vw;
+        flex-direction: column;
     }
     .social-icons img {
         width: 7vw;
@@ -243,6 +244,7 @@ footer {
     .pages {
         font-size: 3vw;
         padding: 2vw;
+        flex-direction: column;
     }
 
     .last {
