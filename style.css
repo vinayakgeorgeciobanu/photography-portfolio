@@ -232,9 +232,12 @@ footer {
         padding: 12px;
     }
     
+    .social-icons {
+        flex-direction: column;
+        justify-content: center;
+    }
     .social-icons a {
         padding: 1vw 6.5vw;
-        flex-direction: column;
     }
     .social-icons img {
         width: 7vw;
@@ -245,6 +248,7 @@ footer {
         font-size: 3vw;
         padding: 2vw;
         flex-direction: column;
+        justify-content: center;
     }
 
     .last {
