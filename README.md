@@ -1,2 +1,2 @@
 # Photography-Portfolio
-https://vinayakgeorgeciobanu.github.io/Photography-Portfolio/
+https://vinayakgeorgeciobanu.github.io/photography-portfolio/
